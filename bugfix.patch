@@ -1,0 +1,17 @@
+diff --git a/src/scip/bounding_exact.c b/src/scip/bounding_exact.c
+index 69d1231706..cfcca5baed 100644
+--- a/src/scip/bounding_exact.c
++++ b/src/scip/bounding_exact.c
+@@ -370,8 +370,9 @@ SCIP_RETCODE projectShiftFactorizeDualSubmatrix(
+    RatSetGMPArray(projvalgmp, projval, 2 * nnonz + 2 * ncols);
+
+ #if defined SCIP_WITH_GMP && defined SCIP_WITH_EXACTSOLVE
+-   rval = RECTLUbuildFactorization(&projshiftdata->rectfactor, ncols, projshiftdata->projshiftbasisdim,
+-      projshiftdata->projshiftbasis, projvalgmp, projind, projbeg, projlen);
++   //rval = RECTLUbuildFactorization(&projshiftdata->rectfactor, ncols, projshiftdata->projshiftbasisdim,
++   //   projshiftdata->projshiftbasis, projvalgmp, projind, projbeg, projlen);
++   rval = 1;
+ #else
+    rval = 1;
+ #endif
+
