@@ -1,6 +1,6 @@
 # Exact Decomposition Branching
 
-This repository provides supplementary material on the paper *Exact Decomposition Branching exploiting Lattices* by K. Halbig, T. Oertel and D. Weninger.
+This repository provides supplementary material on the paper *Exact Decomposition Branching exploiting Lattice Structures* by K. Halbig, T. Oertel and D. Weninger.
 
 ## Installation
 
@@ -41,14 +41,15 @@ The instances of both test sets inclusive their decomposition files and a suitab
 If you use code or data of this repository in your research, please consider citing the following paper:
 
 > K. Halbig, T. Oertel and D. Weninger (2024).
-> Exact Decomposition Branching exploiting Lattices.
+> Exact Decomposition Branching exploiting Lattice Structures.
 
 Or, using the following BibTeX entry:
 
 ```bibtex
 @misc{Halbig_ExactDecBranch_2024,
 	author = {Halbig, Katrin and Oertel, Timm and Weninger, Dieter},
-	title = {Exact Decomposition Branching exploiting Lattices},
+	title = {Exact Decomposition Branching exploiting Lattice Structures},
+	month = {Oct},
 	year = {2024}
 }
 ```
