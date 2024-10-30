@@ -2,6 +2,8 @@
 
 This repository provides supplementary material on the paper *Exact Decomposition Branching exploiting Lattice Structures* by K. Halbig, T. Oertel and D. Weninger.
 
+A preprint is available at [arxiv][1].
+
 ## Installation
 
 To use our code first download and build [exact SCIP][2] with its dependencies *GMP*, *Boost*, and *MPFR*.
@@ -50,9 +52,10 @@ Or, using the following BibTeX entry:
 	author = {Halbig, Katrin and Oertel, Timm and Weninger, Dieter},
 	title = {Exact Decomposition Branching exploiting Lattice Structures},
 	month = {Oct},
-	year = {2024}
+	year = {2024},
+	url={https://arxiv.org/abs/2410.22147}
 }
 ```
-
+[1]: https://arxiv.org/abs/2410.22147
 [2]: https://github.com/scipopt/scip/tree/exact-rational
 
